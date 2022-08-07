@@ -1,0 +1,11 @@
+{
+	"main": "index.html",
+	"logo": "calender.png",
+	"features": [
+		{
+		  "code": "hello",
+		  "explain": "hello world",
+			"cmds":["hello", "你好"]
+		}
+	]
+}

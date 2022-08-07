@@ -1,0 +1,41 @@
+@import "~/assets/icon/remixicon.css";
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-aspect-ratio: 8/5) {
+  #app {
+    width: 100vw;
+    height: calc(100vw * 5 / 8);
+  }
+}
+@media screen and (min-aspect-ratio: 8/5) {
+  #app {
+    width: calc(100vh * 8 / 5);
+    height: 100vh;
+  }
+}
+
+[role="button"] {
+  cursor: pointer;
+}
+
+.animationDelay {
+  transition: all ease-in-out .25s;
+}
