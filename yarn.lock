@@ -606,6 +606,11 @@ is-number@^7.0.0:
   resolved "https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
   integrity sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
 
+jinrishici@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/jinrishici/-/jinrishici-1.0.6.tgz#1f3e1259de5e889ce1bab00f118248c7c346bd98"
+  integrity sha512-4Bk5VHo6xg9DspGS8y8I7D6kftA6DYy4rSvwpdtxFvh9DidXMgf+NSZKAXrcLTi8S5NjqmwkpAKYPHXRURH64Q==
+
 lilconfig@^2.0.5, lilconfig@^2.0.6:
   version "2.0.6"
   resolved "https://registry.npmmirror.com/lilconfig/-/lilconfig-2.0.6.tgz#32a384558bd58af3d4c6e077dd1ad1d397bc69d4"
@@ -908,6 +913,21 @@ v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
   resolved "https://registry.npmmirror.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
+
+vite-plugin-commonjs@^0.5.2:
+  version "0.5.2"
+  resolved "https://registry.npmmirror.com/vite-plugin-commonjs/-/vite-plugin-commonjs-0.5.2.tgz#32340075bbe772aadea9addfe5dc309dcccb1515"
+  integrity sha512-UgkGCCBnVnFAkBvbUTFYmHEwp7fiLTOKXR8/Ws4s/bFggWfVYi21Wi5TDceokcvhUjTZAOcm8/smNH0wIwXw3w==
+  dependencies:
+    fast-glob "^3.2.11"
+    vite-plugin-dynamic-import "^0.9.9"
+
+vite-plugin-dynamic-import@^0.9.9:
+  version "0.9.9"
+  resolved "https://registry.npmmirror.com/vite-plugin-dynamic-import/-/vite-plugin-dynamic-import-0.9.9.tgz#0894840793a7c3a86f7bb3301b12b442dedb5760"
+  integrity sha512-EI+VHRd5nRj/0X6V70jfIhOyNx/S4c4VkjttTuRp2pMn5tuS/XtdjI5TTiekDmcaCXyZldvuu7kWBSb6CuIIGg==
+  dependencies:
+    fast-glob "^3.2.11"
 
 vite@^3.0.0:
   version "3.0.4"
